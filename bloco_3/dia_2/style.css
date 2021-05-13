@@ -1,0 +1,38 @@
+h1{
+    font-size: 40px;
+    color:white;
+    font-family: 'Girassol', cursive;
+    text-align: center;
+}    
+
+.style-list-paragrafo{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 600;
+}
+
+body{
+    font-size: 16px;
+    background-color: black;
+}
+
+#azul{
+    background-color:#F15BB5;
+    color: black;
+}
+
+#preto{
+    background-color:#FEE440;
+    color: black;
+}
+
+#branco{
+    background-color:#00BBF9;
+    color: black;
+}
