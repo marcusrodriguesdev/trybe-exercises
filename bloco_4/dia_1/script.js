@@ -18,4 +18,39 @@ let valorTwo = 2;
 let valorThree = 7;
 let comparada = valorTwo < valorThree > valorOne;
 
-console.log(comparada)
+// atividade 4
+
+
+
+// atividade 5
+let triangulo = 170;
+if (trangulo = 180) {
+  console.log("E um triangulo")
+} else {
+  console.log("nao e um triangulo")
+}
+
+
+
+
+// atividade 7
+let porcentagem = 40;
+if (porcentagem >= 90) {
+  console.log('A')
+} else if (porcentagem >= 80) {
+  console.log('B')
+} else if (porcentagem >= 70) {
+  console.log('C')
+} else if (porcentagem >= 60) {
+  console.log('D')
+} else if (porcentagem >= 60) {
+  console.log('E')
+} else {
+  console.log('F')
+}
+
+// Atividade 8
+let num = 2;
+  if (num = 0) {
+    consonle.log('par')
+  }
