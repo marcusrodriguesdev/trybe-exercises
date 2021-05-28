@@ -78,10 +78,24 @@ for(let index = 0; index < string.length; index += 1) {
 let h3 = '';
 for(let index = 0; index < 3; index += 1) {
   h3 = document.createElement('h3')
-  h3.innerHTML = 'Vamos la'
+  h3.innerHTML = 'Lets Go'
   h3.className = 'description'
 
   let divPass2 = document.getElementsByTagName('div')[0].appendChild(h3);
 }
 
 //  PARTE 2 DO EXERCICIO 
+// Exercicio 1
+bodyChild.className = ('title');
+
+// Exercicio 2
+let remove = document.getElementsByTagName('div')[0];
+let item = document.getElementsByTagName('div')[2];
+
+remove.removeChild(item)
+
+// Exercicio 3
+let alterationPosition = document.getElementsByTagName('div')[2];
+alterationPosition.style.marginRight = 'auto';
+
+// e
