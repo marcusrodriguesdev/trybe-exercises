@@ -19,7 +19,7 @@ createNewDiv.className = ('center-content');
 let div3 = document.querySelector('.center-content');
 let paragraph = document.createElement('p');
 div3.appendChild(paragraph);
-paragraph.innerText = ('Deus e bommm!!');
+paragraph.innerText = ('Exercise 5, brooo!!');
 
 // exercicio 5 
 // crie a tag div
@@ -51,16 +51,16 @@ let motherTwo = document.getElementsByTagName('div')[3];
 motherTwo.appendChild(createList);
 // lista de 1 a 10
 let string = [
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
-  'TextTest',
+  '1',
+  '2',
+  '3',
+  '4',
+  '5',
+  '6',
+  '7',
+  '8',
+  '9',
+  '10',
 ];
 
 let lista = document.getElementsByTagName('ul')[0];
@@ -98,4 +98,14 @@ remove.removeChild(item)
 let alterationPosition = document.getElementsByTagName('div')[2];
 alterationPosition.style.marginRight = 'auto';
 
-// e
+// Exercicio 4
+let alterationBackground = document.getElementsByTagName('div')[0];
+alterationBackground.style.backgroundColor = 'green'
+
+// Exercicio 5
+let elementList = document.getElementsByTagName('ul')[0];
+let removeList = document.getElementsByTagName('li')[8];
+let removeList1 = document.getElementsByTagName('li')[9];
+
+elementList.removeChild(removeList);
+elementList.removeChild(removeList1);
