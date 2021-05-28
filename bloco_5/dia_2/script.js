@@ -50,28 +50,38 @@ let createList = document.createElement('ul');
 let motherTwo = document.getElementsByTagName('div')[3];
 motherTwo.appendChild(createList);
 // lista de 1 a 10
+let string = [
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+  'TextTest',
+];
+
 let lista = document.getElementsByTagName('ul')[0];
-
-
-;
-let string = {
-  intem1:'css',
-  intem2:'html',
-  intem3:'javascript',
-  intem4:'java',
-  intem5:'Dom',
-  intem6:'seletores',
-  intem7:'inteligencia emocional',
-  intem8:'empatia',
-  intem9:'react',
-};
-
 for(let index = 0; index < string.length; index += 1) {
-  let var1 = string[index];
+  let result = string[index];
 
-  let lista = document.getElementsByTagName('ul')[0]
-  let createValuer = document.createElement('li');
-  createValuer.innerText = string;
+  let createItens = document.createElement('li');
+  createItens.innerText = result;
 
-  lista.appendChild(createValuer);
+  lista.appendChild(createItens);
 }
+
+// exercicio 9 
+// criar tag h3 
+let h3 = '';
+for(let index = 0; index < 3; index += 1) {
+  h3 = document.createElement('h3')
+  h3.innerHTML = 'Vamos la'
+  h3.className = 'description'
+
+  let divPass2 = document.getElementsByTagName('div')[0].appendChild(h3);
+}
+
+//  PARTE 2 DO EXERCICIO 
