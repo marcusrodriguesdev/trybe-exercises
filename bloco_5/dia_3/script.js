@@ -45,5 +45,12 @@ friday11.className = 'day friday';
 friday18.className = 'day friday';
 friday25.className = 'day holiday friday';
 
-// 
+// Exercicio 2
+window.onload = createButton;
 
+function createButton (feriados) {
+  let tagFather2 = document.getElementsByTagName('div')[2];
+  feriados = document.createElement('button');
+  tagFather2.appendChild(feriados);
+  feriados.id = 'btn-holiday'
+}
