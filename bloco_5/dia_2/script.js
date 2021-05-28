@@ -19,7 +19,7 @@ createNewDiv.className = ('center-content');
 let div3 = document.querySelector('.center-content');
 let paragraph = document.createElement('p');
 div3.appendChild(paragraph);
-paragraph.innerText = ('Deus e bommm!!');
+paragraph.innerText = ('Exercise 5, brooo!!');
 
 // exercicio 5 
 // crie a tag div
@@ -50,28 +50,62 @@ let createList = document.createElement('ul');
 let motherTwo = document.getElementsByTagName('div')[3];
 motherTwo.appendChild(createList);
 // lista de 1 a 10
+let string = [
+  '1',
+  '2',
+  '3',
+  '4',
+  '5',
+  '6',
+  '7',
+  '8',
+  '9',
+  '10',
+];
+
 let lista = document.getElementsByTagName('ul')[0];
-
-
-;
-let string = {
-  intem1:'css',
-  intem2:'html',
-  intem3:'javascript',
-  intem4:'java',
-  intem5:'Dom',
-  intem6:'seletores',
-  intem7:'inteligencia emocional',
-  intem8:'empatia',
-  intem9:'react',
-};
-
 for(let index = 0; index < string.length; index += 1) {
-  let var1 = string[index];
+  let result = string[index];
 
-  let lista = document.getElementsByTagName('ul')[0]
-  let createValuer = document.createElement('li');
-  createValuer.innerText = string;
+  let createItens = document.createElement('li');
+  createItens.innerText = result;
 
-  lista.appendChild(createValuer);
+  lista.appendChild(createItens);
 }
+
+// exercicio 9 
+// criar tag h3 
+let h3 = '';
+for(let index = 0; index < 3; index += 1) {
+  h3 = document.createElement('h3')
+  h3.innerHTML = 'Lets Go'
+  h3.className = 'description'
+
+  let divPass2 = document.getElementsByTagName('div')[0].appendChild(h3);
+}
+
+//  PARTE 2 DO EXERCICIO 
+// Exercicio 1
+bodyChild.className = ('title');
+
+// Exercicio 2
+let remove = document.getElementsByTagName('div')[0];
+let item = document.getElementsByTagName('div')[2];
+
+remove.removeChild(item)
+
+// Exercicio 3
+let alterationPosition = document.getElementsByTagName('div')[2];
+alterationPosition.style.marginRight = 'auto';
+
+// Exercicio 4
+let alterationBackground = document.getElementsByTagName('div')[0];
+alterationBackground.style.backgroundColor = 'green'
+
+// Exercicio 5
+let elementList = document.getElementsByTagName('ul')[0];
+let removeList = document.getElementsByTagName('li')[8];
+let removeList1 = document.getElementsByTagName('li')[9];
+
+elementList.removeChild(removeList);
+elementList.removeChild(removeList1);
