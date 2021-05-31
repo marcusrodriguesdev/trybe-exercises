@@ -53,4 +53,7 @@ function createButton (feriados) {
   feriados = document.createElement('button');
   tagFather2.appendChild(feriados);
   feriados.id = 'btn-holiday'
+  feriados.innerText = 'button'
 }
+
+// Exercicio 3
