@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-#cabecalho {
+.cabecalho {
   text-align: center;
   padding-top: 20px;
 }
@@ -63,4 +63,8 @@ body {
 
 .casa {
   margin-left: 35px;
+}
+
+#resumo {
+  padding: 14px;
 }

@@ -6,7 +6,7 @@
   <title>Exercise Forms</title>
 </head>
 <body>
-  <header id="cabecalho">
+  <header class="cabecalho">
     <h1>Formulário</h1>
   </header>
   <form action="" method="GET" enctype="multipart/form-data">
@@ -76,8 +76,28 @@
         </fieldset>
       </div>
     </fieldset>
-    <h1>Dados do ultimo emprego</h1>
+    <h1 class="cabecalho">Dados do seu último emprego</h1>
     <fieldset class="box-style">
+      <div class="distance-element">
+        <label for="">Resumo do seu curriculo:</label><br>
+        <textarea name="resumo" id="resumo" cols="100" rows="11" maxlength="1000"></textarea>
+      </div>
+      
+      <div class="distance-element">
+        <label for="cargo">Cargo:</label>
+        <input type="text" id="cargo" maxlength="40" required class="vqv">
+      </div>
+      
+      <div class="distance-element">
+        <label for="descripition">Descrição:</label>
+        <input type="text" id="descripition" class="vqv" maxlength="500" required>
+      </div>
+
+      <div class="distance-element">
+        <label for="date">Data de Inicio:</label>
+        <input type="date" id="date" value="" class="vqv">
+      </div>
+
 
     </fieldset>
   </form>
