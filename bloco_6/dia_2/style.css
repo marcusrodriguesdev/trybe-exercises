@@ -1,83 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.cabecalho {
-  text-align: center;
-  padding-top: 20px;
-}
-
-body {
-  font-family: sans-serif;
-  color: #144552;
-}
-
-.box-style {
-  background-color: rgb(246, 247, 248);
-  width: 80%;
-  margin: 40px auto;
-  border: 1px solid rgb(214,217,220);
-  padding: 50px;
-  border-radius: 3px;
-}
-
-.vqv {
-  width: 600px;
-  padding: 7px;
-  font-size: 14px;
-  border: 1px solid rgb(214,217,220)
-}
-
-.distance-element {
-  margin: 20px;
-}
-
-.endereco {
-  padding: 7px;
-  font-size: 14px;
-  width: 300px;
-  border: 1px solid rgb(214,217,220)
-}
-
-.states {
-  padding: 7px;
-  width: 200px;
-  font: 14px;
-  border: 1px solid rgb(214,217,220)
-}
-
-.complemento {
-  width: 300px;
-  padding: 10px;
-  border: 1px solid rgb(214,217,220);
-  font-size: 14px;
-}
-
-#complemento1 {
-  margin-right: 30px;
-}
-
-.casa {
-  margin-left: 35px;
-}
-
-#resumo {
-  padding: 14px;
+.gogo {
+  margin: 80px;
+  padding: 18px;
 }
 
 #button {
-  width: 100px;
-  height: 40px;
-  border: 1px solid rgb(214,217,220);
-  border-radius: 3px;
+  margin-top: 40px;
 }
 
-.bora {
-  text-align: center;
-  padding: 40px;
-}
-
-#city {
-  width: 150px;
+form {
+  background-color: #343a40;
+  color: white;
 }

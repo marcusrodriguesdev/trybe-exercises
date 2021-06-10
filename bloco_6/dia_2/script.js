@@ -37,3 +37,23 @@ for (let index = 0; index < estados.length; index += 1) {
   states.appendChild(createOption);
 }
 
+
+function changeDate() {
+  const date = document.getElementById('date');
+  if (date.value < 1 || date.value > 31) {
+    alert('Dia invalido');
+    date.value = '';
+  }
+}
+
+const date = document.getElementById('date');
+date.addEventListener('keyup', changeDate);
+
+
+const button = document.getElementById('button');
+
+function stopButton(event) {
+  event.preventDefault();
+}
+
+button.addEventListener('click', stopButton);
