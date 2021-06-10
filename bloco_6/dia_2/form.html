@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercise Forms</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <h1>Sobre você</h1>
+  </header>
+  <form action="" method="GET" enctype="multipart/form-data">
+    <fieldset class="box-style">
+      
+      <div class="distance-element">
+      <label for="nome-usuario">Nome:</label>
+      <input type="text" name="nome" id="nome-usuario" placeholder="Digite seu nome" required maxlength="40" autocomplete="off" class="vqv">
+      </div> 
+      
+      <div class="distance-element">
+      <label for="email-usuario">Email:</label>
+      <input type="email" name="email" id="email-usuario" placeholder="Digite seu email" required maxlength="50" autocomplete="off" class="vqv">
+      </div>
+
+      <div class="distance-element">
+      <label for="cpf-usario">CPF:  </label>
+      <input type="text" maxlength="14" name="cpf" id="cpf-usuario"
+      placeholder="Digite seu CPF" required autocomplete="off" class="vqv">
+      </div>
+      
+      <div class="distance-element">
+      <label for="endereco-usario">Endereço:</label>
+      <input type="text" id="endereco-usario" name="endereco" maxlength="200" required class="endereco" autocomplete="off">
+      <label for="city">Cidade:</label>
+      <input type="text" name="city" id="city" class="endereco city" maxlength="28" required autocomplete="off">
+      <label for="estado">Estado:</label>
+      <select type="option" id="estado" name="estado" class="states">
+        
+      </select>
+      </div>
+
+      <div class="distance-element">
+        <fieldset class="complemento">
+          <legend>Complemento</legend>
+          <label for="complemento1" class="casa">Casa</label>
+          <input type="radio" id="complemento1" name="complemento">
+          <label for="complemento2">Apartamento</label>
+          <input type="radio" id="complemento2" name="complemento">
+        </fieldset>
+      </div>
+    </fieldset>
+    <h1 class="cabecalho">Dados do seu último emprego</h1>
+    <fieldset class="box-style">
+      <div class="distance-element">
+        <label for="">Resumo do seu curriculo:</label><br>
+        <textarea name="resumo" id="resumo" cols="100" rows="11" maxlength="1000"></textarea>
+      </div>
+      
+      <div class="distance-element">
+        <label for="cargo">Cargo:</label>
+        <input type="text" id="cargo" maxlength="40" required class="vqv">
+      </div>
+      
+      <div class="distance-element">
+        <label for="descripition">Descrição:</label>
+        <input type="text" id="descripition" class="vqv" maxlength="500" required>
+      </div>
+
+      <div class="distance-element">
+        <label for="date">Data de Inicio:</label>
+        <input type="text" id="date" value="" class="vqv" placeholder="dd/mm/aaaa">
+      </div>
+    </fieldset>
+    <section class="bora">
+      <button type="submit" id="button">Enviar curriculo</button>
+    </section>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
