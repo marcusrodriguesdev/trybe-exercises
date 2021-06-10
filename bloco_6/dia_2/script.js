@@ -37,21 +37,3 @@ for (let index = 0; index < estados.length; index += 1) {
   states.appendChild(createOption);
 }
 
-
-const date =  document.getElementById('date');
-var date1 = new Date();
-let resultado;
-
-var day = date.getDate(),
-    month = date.getMonth() + 1,
-    year = date.getFullYear();
-
-if (date === day > 0 && day <= 31) {
-  resultado;
-} else if (date === month > 0 && month <= 12) {
-  resultado;
-} else if (date === year > 0) {
-  resultado;
-} else {
-  alert('Data inexistente')
-}

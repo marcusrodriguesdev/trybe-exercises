@@ -33,10 +33,6 @@ body {
   margin: 20px;
 }
 
-#cpf-usuario {
-  margin-left: 10px;
-}
-
 .endereco {
   padding: 7px;
   font-size: 14px;
@@ -52,7 +48,7 @@ body {
 }
 
 .complemento {
-  width: 400px;
+  width: 300px;
   padding: 10px;
   border: 1px solid rgb(214,217,220);
   font-size: 14px;
@@ -80,4 +76,8 @@ body {
 .bora {
   text-align: center;
   padding: 40px;
+}
+
+#city {
+  width: 150px;
 }
