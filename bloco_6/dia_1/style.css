@@ -10,6 +10,7 @@
 
 body {
   font-family: sans-serif;
+  color: #144552;
 }
 
 .box-style {
@@ -67,4 +68,16 @@ body {
 
 #resumo {
   padding: 14px;
+}
+
+#button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgb(214,217,220);
+  border-radius: 3px;
+}
+
+.bora {
+  text-align: center;
+  padding: 40px;
 }
