@@ -38,16 +38,16 @@ for (let index = 0; index < estados.length; index += 1) {
 }
 
 
-function changeDate() {
-  const date = document.getElementById('date');
-  if (date.value < 1 || date.value > 31) {
-    alert('Dia invalido');
-    date.value = '';
-  }
-}
+// function changeDate() {
+//   const date = document.getElementById('date');
+//   if (date.value < 1 || date.value > 31) {
+//     alert('Dia invalido');
+//     date.value = '';
+//   }
+// }
 
-const date = document.getElementById('date');
-date.addEventListener('keyup', changeDate);
+// const date = document.getElementById('date');
+// date.addEventListener('keyup', changeDate);
 
 
 const button = document.getElementById('button');
@@ -57,3 +57,25 @@ function stopButton(event) {
 }
 
 button.addEventListener('click', stopButton);
+
+// date
+var picker = new Pikaday({
+  field: document.getElementById('datepicker'),
+  format: 'D/M/YYYY',
+  toString(date, format) {
+      // you should do formatting based on the passed format,
+      // but we will just return 'D/M/YYYY' for simplicity
+      const day = date.getDate();
+      const month = date.getMonth() + 1;
+      const year = date.getFullYear();
+      return `${day}/${month}/${year}`;
+  },
+  parse(dateString, format) {
+      // dateString is the result of `toString` method
+      const parts = dateString.split('/');
+      const day = parseInt(parts[0], 10);
+      const month = parseInt(parts[1], 10) - 1;
+      const year = parseInt(parts[2], 10);
+      return new Date(year, month, day);
+  }
+});
