@@ -70,8 +70,26 @@ html {
   }
 
   .aside-one {
-    background-color: grey;
+    background-color: yellow;
     padding: 10px;
     border: 2px black solid;
+  }
+
+  .aside-two {
+    background-color: indigo;
+    padding: 10px;
+    border: 2px black solid;
+  }
+  
+  .main-content {
+    margin: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 10px;
   }
 }
