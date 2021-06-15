@@ -6,6 +6,42 @@ html {
   box-sizing: inherit;
 }
 
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+
+.aside-one {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: yellow;
+  border: 2px black solid;
+}
+
+.aside-two {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: indigo;
+  border: 2px black solid;
+}
+
+.main-content {
+  margin: 30px;
+  font-size: 16x;
+}
+
+footer {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 23px;
@@ -93,3 +129,4 @@ html {
     font-size: 10px;
   }
 }
+
