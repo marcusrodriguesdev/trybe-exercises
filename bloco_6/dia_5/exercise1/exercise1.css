@@ -1,0 +1,54 @@
+body {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 26px;
+    margin: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  figure {
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width:900px) {
+  body {
+    background-color: red;
+    font-size: 24px;
+    margin: 80px;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:1300px) {
+  body {
+    background-color: green;
+    font-size: 27px;
+    margin: 60px;
+    max-width: 80%;
+  }
+}
