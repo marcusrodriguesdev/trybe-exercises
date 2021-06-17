@@ -28,21 +28,19 @@ console.log(exercise2('Antônio foi no banheiro e não sabemos o que aconteceu')
 // Exercise 3
 const button = document.getElementById('button');
 const clickCounter = document.getElementById('click-counter');
-
-button.addEventListener('click', )
-
+let contador = 0;
 const exercise3 = (event) => {
-  const changeColor = document.body.style.backgroundColor;
+  contador += 1;
+  clickCounter.value = contador;
 }
+button.addEventListener('click', exercise3);
 
+// exercise 4
+function changePhrase(string) {
+  if (string === 'Tryber x aqui!') {
+  return string.replace(/ x /g, " Bebeto ")
+}
+}
+console.log(changePhrase('Tryber x aqui!'));
 
-// const exercise3 = (event) => {
-//   const curColour = document.body.style.backgroundColor;
-
-//   if (curColour === 'red') {
-//       document.body.style.backgroundColor = "blue";
-//   }
-//   else {
-//       document.body.style.backgroundColor = "red";
-//   };
-// };
+// Exercicio 5
