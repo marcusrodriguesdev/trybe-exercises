@@ -36,11 +36,20 @@ const exercise3 = (event) => {
 button.addEventListener('click', exercise3);
 
 // exercise 4
-function changePhrase(string) {
+const exercise4 = (string) => {
   if (string === 'Tryber x aqui!') {
   return string.replace(/ x /g, " Bebeto ")
 }
 }
-console.log(changePhrase('Tryber x aqui!'));
+console.log(exercise4('Tryber x aqui!'));
 
-// Exercicio 5
+// Exercise 5
+function concatenarFrase(frases) {
+  let primeiro = '';
+  let retorno = '';
+  primeiro = frases[frases.length - 1];
+  retorno = `${primeiro}, ${frases[0]}`;
+  return retorno;
+}
+let skills = ['html', 'css', 'javascript', 'bootstrap', 'git']
+console.log(concatenarFrase(skills));
