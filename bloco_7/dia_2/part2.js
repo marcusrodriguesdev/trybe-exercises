@@ -30,5 +30,5 @@ console.log(sizeObj(lesson1));
 const tamanho = (obj) =>  Object.values(obj);
 console.log(tamanho(lesson1));
 
-// // Exercicio 5
+// Exercicio 5
 const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
