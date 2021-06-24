@@ -81,4 +81,3 @@ function getNamedBook() {
 }
 
 assert.deepStrictEqual(getNamedBook(), expectedResult);
-
