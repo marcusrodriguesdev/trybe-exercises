@@ -99,4 +99,5 @@ function fantasyOrScienceFiction() {
   return books.filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica');
 
 }
+
 assert.deepStrictEqual(fantasyOrScienceFiction(), expectedResult);
