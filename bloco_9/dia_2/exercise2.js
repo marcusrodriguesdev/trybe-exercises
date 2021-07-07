@@ -10,6 +10,7 @@ const promise = () => {
   myPromise
   .then(number => console.log('Promise resolvida'))
   .catch(error => console.log('Promise rejeitada'));
+
 }
 
 promise()

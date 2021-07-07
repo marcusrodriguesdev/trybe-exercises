@@ -13,6 +13,7 @@ const promise = () => {
     const result = numeros.map((number) => someNumbers / number)
     console.log(result);
   })
+  .then(arr => arr.reduce((acc, curr) => acc + curr, 0))
   .catch(error => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
 }
 
