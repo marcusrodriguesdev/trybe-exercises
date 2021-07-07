@@ -13,7 +13,7 @@ const promise = () => {
     const result = numeros.map((number) => someNumbers / number)
     console.log(result);
   })
-  .catch(error => console.log('Promise rejeitada'));
+  .catch(error => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
 }
 
 promise() 
