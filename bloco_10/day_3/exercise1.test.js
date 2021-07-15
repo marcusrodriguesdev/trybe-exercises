@@ -1,7 +1,7 @@
 const service = require('./exercise1');
 
-describe('check response randomNumber function', () => {
-  test('teste', () => {
+describe('check call randomNumber function', () => {
+  test('Test whether the function was called, what its return and how many times it was called', () => {
     service.randomNumber = jest.fn().mockReturnValue(10);
 
     expect(service.randomNumber()).toBe(10);
