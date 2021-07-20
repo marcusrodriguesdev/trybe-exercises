@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.ListItems {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  color: white;
+}
