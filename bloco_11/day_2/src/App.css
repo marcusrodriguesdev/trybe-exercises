@@ -7,7 +7,7 @@ body {
 
 .cabecalho {
   text-align: center;
-  color: yellow;
+  color: #ffbf69;
 }
 
 .pokemons-list {
@@ -26,4 +26,5 @@ body {
   border-radius: 1rem;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   width: 190px;
+  text-align: center;
 }
