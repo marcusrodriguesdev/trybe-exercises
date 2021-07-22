@@ -12,15 +12,7 @@ class App extends React.Component {
           <h1>My Pokedex</h1>
         </header>
       <div className="pokemons-list">
-        {pokemons.map(({name, type, id, image, averageWeight}) => (
-          <Pokedex 
-          key={id}
-          name={name}
-          type={type}
-          image={image}
-          averageWeight={averageWeight}
-          />
-        ))}
+        <Pokedex pokemons={pokemons} />
       </div>
       </div>
     )
