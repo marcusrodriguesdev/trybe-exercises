@@ -6,8 +6,8 @@ export default class Pokemon extends React.Component {
   render () {
     const { name, type, averageWeight, image } = this.props.pokemon;
     return (
-      <section className='pokemon'>
-        <div className="image">
+      <section className='pokemons-list"'>
+        <div className="pokemon-card">
           <div>
             <h2>{ name }</h2>
             <p>{ type }</p>
