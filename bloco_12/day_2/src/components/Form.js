@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Cpf from './Cpf';
 import Email from './Email';
 import Text from './Text';
+import Endereco from './Endereco';
 
 export default class Form extends Component {
   constructor() {
@@ -10,8 +11,8 @@ export default class Form extends Component {
     this.state = {
       nome:'',
       email:'',
-      cpf:0,
-
+      cpf:'',
+      endereco:'',
     }
     this.handleChange = this.handleChange.bind(this);
   }
@@ -33,7 +34,12 @@ export default class Form extends Component {
 
           Email: <Email value={this.state.email} handleChange={this.handleChange} /><br /><br />
 
-          Cpf: <Cpf value={this.state.cpf} handleChange={this.handleChange} /><br /><br />
+          CPF: <Cpf value={this.state.cpf} handleChange={this.handleChange} /><br /><br />
+
+          Endereco: <Endereco value={this.state.endereco} handleChange={this.handleChange} /><br /><br />
+        </fieldset>
+        <fieldset>
+          
         </fieldset>
       </form>
     );

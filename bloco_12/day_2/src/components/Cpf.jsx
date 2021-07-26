@@ -4,8 +4,8 @@ export default class Cpf extends Component {
   render() {
     const { value, handleChange } = this.props;
     return (
-      <label htmlFor="Cpf">
-        <input type="Cpf" maxLength="40" id="" name="Cpf" required value={value} onChange={handleChange} />
+      <label htmlFor="cpf">
+        <input type="text" maxLength="11" id="" name="cpf" required value={value} onChange={handleChange} />
       </label>
     );
   }
