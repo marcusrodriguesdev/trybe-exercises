@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Text from './Text';
 
 export default class Form extends Component {
   constructor() {
@@ -8,6 +9,7 @@ export default class Form extends Component {
       nome:'',
 
     }
+    this.handleChange = this.handleChange.bind(this);
   }
   
   handleChange({ target }) {
@@ -23,9 +25,8 @@ export default class Form extends Component {
     return (
       <form className="form">
         <fieldset>
-          <label htmlFor="nome">Nome:
-            <input type="text" maxLength="40" id="nome" required />
-          </label><br /><br />
+          <Text value={this.state.nome} handleChange={this.handleChange} />
+
           <label htmlFor="email">Email:
             <input type="text" id="email" name="email" maxLength="50" required />
           </label><br /><br />
