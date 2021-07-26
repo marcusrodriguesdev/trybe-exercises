@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Cpf from './Cpf';
 import Email from './Email';
 import Text from './Text';
 
@@ -31,6 +32,8 @@ export default class Form extends Component {
           Nome: <Text value={this.state.nome} handleChange={this.handleChange} /><br /><br />
 
           Email: <Email value={this.state.email} handleChange={this.handleChange} /><br /><br />
+
+          Cpf: <Cpf value={this.state.cpf} handleChange={this.handleChange} /><br /><br />
         </fieldset>
       </form>
     );
