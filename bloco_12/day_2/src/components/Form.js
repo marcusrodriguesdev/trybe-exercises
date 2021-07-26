@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Email from './Email';
 import Text from './Text';
 
 export default class Form extends Component {
@@ -7,6 +8,8 @@ export default class Form extends Component {
 
     this.state = {
       nome:'',
+      email:'',
+      cpf:0,
 
     }
     this.handleChange = this.handleChange.bind(this);
@@ -25,14 +28,9 @@ export default class Form extends Component {
     return (
       <form className="form">
         <fieldset>
-          <Text value={this.state.nome} handleChange={this.handleChange} />
+          Nome: <Text value={this.state.nome} handleChange={this.handleChange} /><br /><br />
 
-          <label htmlFor="email">Email:
-            <input type="text" id="email" name="email" maxLength="50" required />
-          </label><br /><br />
-          <label>
-            
-          </label>
+          Email: <Email value={this.state.email} handleChange={this.handleChange} /><br /><br />
         </fieldset>
       </form>
     );
