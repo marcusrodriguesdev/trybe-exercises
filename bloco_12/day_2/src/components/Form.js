@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Cpf from './Cpf';
-import Email from './Email';
-import Text from './Text';
-import Endereco from './Endereco';
+import Inputs from './Inputs';
 
 export default class Form extends Component {
   constructor() {
@@ -19,8 +16,9 @@ export default class Form extends Component {
   
   handleChange({ target }) {
     const { name } = target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-
+    let value = target.type === 'checkbox' ? target.checked : target.value;
+    
+    if(name === 'nome') value = value.toUpperCase();
     this.setState({
       [name]: value,
     });
@@ -29,18 +27,8 @@ export default class Form extends Component {
   render() {
     return (
       <form className="form">
-        <fieldset>
-          Nome: <Text value={this.state.nome} handleChange={this.handleChange} /><br /><br />
+        <Inputs handleChange={ this.handleChange } currentState={this.state} />
 
-          Email: <Email value={this.state.email} handleChange={this.handleChange} /><br /><br />
-
-          CPF: <Cpf value={this.state.cpf} handleChange={this.handleChange} /><br /><br />
-
-          Endereco: <Endereco value={this.state.endereco} handleChange={this.handleChange} /><br /><br />
-        </fieldset>
-        <fieldset>
-          
-        </fieldset>
       </form>
     );
   }
