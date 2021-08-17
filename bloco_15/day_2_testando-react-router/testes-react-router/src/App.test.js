@@ -18,4 +18,11 @@ describe('teste de toda aplicacao', () => {
     const aboutAll = getByText(/Você está na página Sobre/);
     expect(aboutAll).toBeInTheDocument();
   });
+
+  test('deve testar um caminho não existente e a renderização do Not Found', () => {
+    const { getByText, history } = renderWithRouter(<App />);
+    history.push('/pagina/que-nao-existe/');
+    const noMatch = getByText(/Página não encontrada/i);
+    expect(noMatch).toBeInTheDocument();
+  });
 });
