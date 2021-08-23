@@ -32,3 +32,8 @@ document.querySelector('#next').addEventListener('click', () => {
   store.dispatch({ type: NEXT_COLOR });
 });
 
+store.subscribe(() => {
+  const { colors, index } = store.getState();
+  document.querySelector('#value').innerHTML = colors[index];
+  document.querySelector('#container').style.backgroundColor = colors[index];
+});
