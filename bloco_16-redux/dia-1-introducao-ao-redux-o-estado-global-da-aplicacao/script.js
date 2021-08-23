@@ -23,3 +23,12 @@ const reducer = (state = ESTADO_INICIAL, action) => {
 }
 
 const store = Redux.createStore(reducer);
+
+document.querySelector('#previous').addEventListener('click', () => {
+  store.dispatch({ type: PREVIOUS_COLOR });
+});
+
+document.querySelector('#next').addEventListener('click', () => {
+  store.dispatch({ type: NEXT_COLOR });
+});
+
