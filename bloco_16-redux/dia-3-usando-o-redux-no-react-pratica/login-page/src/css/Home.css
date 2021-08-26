@@ -4,6 +4,33 @@
 }
 
 .home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
-  background-color: #48A89E;
+  background-color: black;
+}
+
+.welcome {
+  margin-bottom: 15px;
+}
+
+.title-home {
+  color: rgba(217,217,217,1.00);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cadastro {
+  color: rgba(217,217,217,1.00);
+  opacity: 0.8;
+}
+
+.link {
+  color: rgb(27, 149, 224);
+  text-decoration: none;
+}
+
+.login-register {
+  margin-bottom: 25px;
 }
