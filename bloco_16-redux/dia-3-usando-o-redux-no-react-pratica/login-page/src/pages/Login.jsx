@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import Button from '../components/Button';
-import icon from '../images/icon.jpg'
 import '../css/Login.css';
 import Input from '../components/Input';
 import { Link } from 'react-router-dom';
+import HeaderLogin from '../components/HeaderLogin';
 
 export default class Login extends Component {
   render() {
     return (
       <div className="login">
-        <header className="header">
-          <div className="container-icon">
-            <img src={ icon } alt="" className="icon" />
-          </div>
-          <h1 className="title">Entrar no Twitter</h1>
-        </header>
+        <HeaderLogin />
         <form className="form">
           <Input
             className="input"
@@ -33,12 +28,12 @@ export default class Login extends Component {
               className="button-entrar"
             />
           </div>
-          <div className="link-container">
+        </form>
+        <footer className="footer">
             <Link className="link esqueceu" to="/">Esqueceu sua senha? </Link>
             <div className="ponto">   .   </div>
             <Link className="link inscrever" to="register">Inscreva-se no Twitter</Link>
-          </div>
-        </form>
+          </footer>
       </div>
     );
   }

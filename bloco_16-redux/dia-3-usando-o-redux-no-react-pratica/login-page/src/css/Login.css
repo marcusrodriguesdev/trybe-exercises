@@ -69,8 +69,9 @@
 }
 
 
-.link-container {
+.footer {
   display: flex;
+  justify-content: center;
   margin: 27px;
 }
 
