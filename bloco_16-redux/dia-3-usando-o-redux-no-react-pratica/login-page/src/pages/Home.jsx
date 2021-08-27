@@ -16,7 +16,7 @@ export default class Home extends Component {
         <div>
           <span className="cadastro">Já tem uma conta? </span>
           <Link
-            to="login"
+            to="/login"
             className="link"
           >
             Entre
@@ -25,7 +25,7 @@ export default class Home extends Component {
         <div className="login-register">
           <span className="cadastro">Não tem uma conta? </span>
           <Link
-            to="login"
+            to="/register"
             className="link"
           >
             Inscreva-se
