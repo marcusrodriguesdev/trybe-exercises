@@ -5,14 +5,29 @@
   background-color: black;
 }
 
+.icon {
+  width: 100px;
+  background-color: black;
+}
+
+.container-icon {
+  margin-bottom: -5px;
+  margin-right: 285px;
+}
+
 .title {
   color: rgb(217, 217, 217);
-  font-size: 31px;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  line-height: 36px;
+  right: -300px;
 }
 
 .header {
   display: flex;
-  margin-top: 110px;
+  margin-top: 6px;
+  margin-bottom: 8px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -51,4 +66,30 @@
   font-family: 'Roboto', sans-serif;
   border-radius: 25px;
   cursor: pointer;
+}
+
+
+.link-container {
+  display: flex;
+  margin: 27px;
+}
+
+.ponto {
+  color: #6E767D;
+  font-size: 13px;
+  text-align: center;
+  line-height: -20px;
+}
+
+.link {
+  color: #1B95E0;
+  font-size: 15px;
+}
+
+.esqueceu {
+  margin-right: 3px;
+}
+
+.inscrever {
+  margin-left: 3px;
 }
