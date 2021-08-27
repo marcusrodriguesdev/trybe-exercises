@@ -23,12 +23,12 @@ export default class Home extends Component {
           </Link>
         </div>
         <div className="login-register">
-          <span className="cadastro">Increva-se! </span>
+          <span className="cadastro">Não tem uma conta? </span>
           <Link
             to="login"
             className="link"
           >
-            Registrar
+            Inscreva-se
           </Link>
         </div>
       </div>
