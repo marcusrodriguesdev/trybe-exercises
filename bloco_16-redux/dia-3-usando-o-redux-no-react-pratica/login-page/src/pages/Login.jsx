@@ -16,14 +16,15 @@ class Login extends Component {
     }
     this.handleChange = this.handleChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.checkLogin = this.checkLogin.bind(this);
   }
 
-  checkLogin = () => {
+  checkLogin() {
     const { email, senha } = this.state;
     if (email === 'teste@gmail.com' && senha === '123456') {
-      return alert('login efatuado!');
+      return alert('Logado!');
     } 
-    return alert('perfil inexistente');
+    return alert('Perfil inexistente');
   }
 
   onSubmit() {
