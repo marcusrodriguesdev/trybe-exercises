@@ -124,18 +124,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   <h1>Desenvolvimento Back-end :hourglass_flowing_sand:</h1>
  
   ***Bloco 20: Introdução à SQL***
- - [ ] 20.1 - Introdução - Back-end
- - [ ] 20.1 - Introdução - Bancos de dados relacionais
- - [ ] 20.1 - Banco de dados SQL
- - [ ] 20.2 - Encontrando dados em um banco de dados
- - [ ] 20.3 - Filtrando dados de forma específica
- - [ ] 20.4 - Manipulando tabelas
- - [ ] 20.5 - Projeto - All For One
+ - [x] 20.1 - Introdução - Back-end
+ - [x] 20.1 - Introdução - Bancos de dados relacionais
+ - [x] 20.1 - Banco de dados SQL
+ - [x] 20.2 - Encontrando dados em um banco de dados
+ - [x] 20.3 - Filtrando dados de forma específica
+ - [x] 20.4 - Manipulando tabelas
+ - [x] 20.5 - Projeto - All For One
   
   ***Bloco 21: Funções SQL, Joins e Subqueries***
- - [ ] 21.1 - Funções mais usadas no SQL
- - [ ] 21.2 - Descomplicando JOINs e UNIONs
- - [ ] 21.3 - Stored Routines & Subqueries
+ - [x] 21.1 - Funções mais usadas no SQL
+ - [x] 21.2 - Descomplicando JOINs e UNIONs
+ - [x] 21.3 - Stored Routines & Subqueries
  - [ ] 21.4 - Projeto - Vocabulary Booster
   
   ***Bloco 22: Normalização e Modelagem de Banco de Dados***
