@@ -136,10 +136,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 21.1 - Funções mais usadas no SQL
  - [x] 21.2 - Descomplicando JOINs e UNIONs
  - [x] 21.3 - Stored Routines & Subqueries
- - [ ] 21.4 - Projeto - Vocabulary Booster
+ - [x] 21.4 - Projeto - Vocabulary Booster
   
   ***Bloco 22: Normalização e Modelagem de Banco de Dados***
- - [ ] 22.1 - Transformando ideias em um modelo de banco de dados
+ - [x] 22.1 - Transformando ideias em um modelo de banco de dados
  - [ ] 22.2 - Normalização, Formas Normais e Dumps
  - [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
  - [ ] 22.4 - Projeto - One For All
