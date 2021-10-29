@@ -140,9 +140,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   
   ***Bloco 22: Normalização e Modelagem de Banco de Dados***
  - [x] 22.1 - Transformando ideias em um modelo de banco de dados
- - [ ] 22.2 - Normalização, Formas Normais e Dumps
- - [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
- - [ ] 22.4 - Projeto - One For All
+ - [x] 22.2 - Normalização, Formas Normais e Dumps
+ - [x] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
+ - [x] 22.4 - Projeto - One For All
   
   ***Bloco 23: Introdução ao MongoDB***
  - [ ] 23.1 - Introdução - NoSQL
