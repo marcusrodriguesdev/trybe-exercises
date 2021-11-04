@@ -40,4 +40,12 @@
     $ docker rmi -f <ID_IMAGEM>
     ```
 
+
+## Exercício 2
+
 ---
+
+ - item 1:
+   ```
+  $ touch Dockerfile
+   ```
