@@ -123,7 +123,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
   <h1>Desenvolvimento Back-end :hourglass_flowing_sand:</h1>
  
-  ***Bloco 20: Introdução à SQL***
+  ***Bloco 19: Introdução à SQL***
  - [x] 20.1 - Introdução - Back-end
  - [x] 20.1 - Introdução - Bancos de dados relacionais
  - [x] 20.1 - Banco de dados SQL
@@ -132,17 +132,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 20.4 - Manipulando tabelas
  - [x] 20.5 - Projeto - All For One
   
-  ***Bloco 21: Funções SQL, Joins e Subqueries***
+  ***Bloco 20: Funções SQL, Joins e Subqueries***
  - [x] 21.1 - Funções mais usadas no SQL
  - [x] 21.2 - Descomplicando JOINs e UNIONs
  - [x] 21.3 - Stored Routines & Subqueries
  - [x] 21.4 - Projeto - Vocabulary Booster
   
-  ***Bloco 22: Normalização e Modelagem de Banco de Dados***
+  ***Bloco 21: Normalização e Modelagem de Banco de Dados***
  - [x] 22.1 - Transformando ideias em um modelo de banco de dados
  - [x] 22.2 - Normalização, Formas Normais e Dumps
  - [x] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
  - [x] 22.4 - Projeto - One For All
+  
+  ***Bloco 22: Docker: Utilizando Containers***
+ - [x] 23.1 - Utilizando Containers - Container
+ - [ ] 23.1 - Manipulação e Criação de imagens no Docker
+ - [ ] 23.2 - Orquestrando Containers com Docker Compose
+ - [ ] 23.3 - Projeto - Docker Todo-list
   
   ***Bloco 23: Introdução ao MongoDB***
  - [ ] 23.1 - Introdução - NoSQL
