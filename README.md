@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   
   ***Bloco 22: Docker: Utilizando Containers***
  - [x] 23.1 - Utilizando Containers - Container
- - [ ] 23.1 - Manipulação e Criação de imagens no Docker
+ - [x] 23.1 - Manipulação e Criação de imagens no Docker
  - [ ] 23.2 - Orquestrando Containers com Docker Compose
  - [ ] 23.3 - Projeto - Docker Todo-list
   
