@@ -30,4 +30,12 @@
     $ docker --rm <NOME_CONTAINER> OU <ID_CONTAINER>
     ```
 
-  - item 9
+  - item 10: 
+    ```item10
+    $ docker image list
+    ```
+
+  - item 11: 
+    ```item11
+    $ docker rmi -f <ID_IMAGEM>
+    ```
