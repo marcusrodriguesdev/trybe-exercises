@@ -24,3 +24,10 @@
     ```item7
     $ docker stop <NOME_CONTAINER> OU <ID_CONTAINER>
     ```
+
+  - item 8:
+    ```item8
+    $ docker --rm <NOME_CONTAINER> OU <ID_CONTAINER>
+    ```
+
+  - item 9
