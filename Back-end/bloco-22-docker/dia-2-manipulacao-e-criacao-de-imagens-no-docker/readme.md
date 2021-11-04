@@ -39,3 +39,5 @@
     ```item11
     $ docker rmi -f <ID_IMAGEM>
     ```
+
+---
