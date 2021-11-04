@@ -45,7 +45,7 @@
 
 ---
 
- - item 1:
-   ```
-  $ touch Dockerfile
-   ```
+  - item 1:
+    ```item1
+    $ touch Dockerfile
+    ```
