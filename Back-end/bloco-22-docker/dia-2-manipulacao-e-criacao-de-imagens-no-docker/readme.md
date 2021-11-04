@@ -14,3 +14,13 @@
     ```item5
     $ docker container ls
     ```
+  
+  - item 6:
+    ```item6
+    $ docker inspect <ID_CONTAINER>
+    ```
+
+  - item 7:
+    ```item7
+    $ docker stop <NOME_CONTAINER> OU <ID_CONTAINER>
+    ```
