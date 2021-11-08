@@ -148,7 +148,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 23.1 - Utilizando Containers - Container
  - [x] 23.1 - Manipulação e Criação de imagens no Docker
  - [x] 23.2 - Orquestrando Containers com Docker Compose
- - [ ] 23.3 - Projeto - Docker Todo-list
+ - [x] 23.3 - Projeto - Docker Todo-list
   
   ***Bloco 23: Introdução ao MongoDB***
  - [ ] 23.1 - Introdução - NoSQL
