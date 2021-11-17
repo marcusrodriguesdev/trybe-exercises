@@ -39,3 +39,7 @@ db.superheroes.find({ "aspects.hairColor": { $in: [ "No Hair", "Black" ] } });
 // Requisito 10
 use('class');
 db.superheroes.find({ "aspects.hairColor": { $in: [ "No Hair", "Black" ] } }).count();
+
+// Requisito 11
+use('class');
+db.superheroes.find({ "aspcets.hairColor": { $nin: ["Black", "No Hair"] }});
