@@ -6,15 +6,16 @@ db.superheroes.findOne();
 
 // Requisito 2
 use('class');
-db.superheroes.find({ "aspects.height": {  $lt: 180  } }).pretty();
+db.superheroes.find({ "aspects.height": { $lt: 180 } }).pretty();
 
 // Requisito 3
 use('class');
-db.superheroes.find({ "aspects.height": {  $lt: 180  } }).count();
+db.superheroes.find({ "aspects.height": { $lt: 180 } }).count();
 
 // Requisito 4
 use('class');
-db.superheroes.find({ "aspects.height": {  $lte: 180  } }).count();
+db.superheroes.find({ "aspects.height": { $lte: 180 } }).count();
 
 // Requisito 5
 use('class');
+db.superheroes.findOne({ "aspects.height" : { $gte: 200 } });
