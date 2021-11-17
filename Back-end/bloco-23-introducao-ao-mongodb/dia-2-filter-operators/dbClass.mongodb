@@ -31,3 +31,8 @@ db.superheroes.find({ "aspects.eyeColor": { $eq : "green" } });
 // Requisito 8
 use('class');
 db.superheroes.find({ "aspects.eyeColor": { $eq : "blue" } }).count();
+
+// Requisito 9
+use('class');
+db.superheroes.find({ "aspects.hairColor": { $in: [ "No Hair", "Black" ] } });
+
