@@ -58,3 +58,11 @@ db.superheroes.find({ $nor: [
 // Requisito 14
 use('class');
 db.superheroes.find({ $and: [{ $or: [{ "aspects.heigth": 180 }, { "aspects.heigth": 200 }]}, { publisher: "Marvel Comics" }] });
+
+// Requisito 15
+use('class');
+db.superheroes.find({ $and : [
+{ "aspects.weight": { $gte: 80, $lt: 100 } }, 
+{ publisher: "Marvel Comics" },
+{ $or: [{ race: "Human" }, { race: "Mutant" }] }
+ ] });
