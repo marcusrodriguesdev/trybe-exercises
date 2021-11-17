@@ -47,3 +47,10 @@ db.superheroes.find({ "aspects.hairColor": { $nin: ["Black", "No Hair"] }}).coun
 // Requisito 12
 use('class');
 db.superheroes.find({ "aspects.heigth": { $not: { $gt: 180 } } }).count();
+
+// Requisito 13
+use('class');
+db.superheroes.find({ $nor: [
+  { race: "Human" },
+  { "aspects.height": { $gt: 180 } } 
+]});
