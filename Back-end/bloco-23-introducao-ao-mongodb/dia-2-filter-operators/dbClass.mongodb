@@ -1,0 +1,9 @@
+db.superheroes.count();
+
+// Requisito 1
+use('class');
+db.superheroes.findOne();
+
+// Requisito 2
+use('class');
+db.superheroes.find({ "aspects.height": {  $lt: 180  } }).pretty();
