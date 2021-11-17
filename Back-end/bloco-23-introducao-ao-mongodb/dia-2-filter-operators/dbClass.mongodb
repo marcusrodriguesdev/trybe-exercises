@@ -19,3 +19,7 @@ db.superheroes.find({ "aspects.height": { $lte: 180 } }).count();
 // Requisito 5
 use('class');
 db.superheroes.findOne({ "aspects.height" : { $gte: 200 } });
+
+// Requisito 6
+use('class');
+db.superheroes.find({ "aspects.height" : { $gte: 200 } }).count();
