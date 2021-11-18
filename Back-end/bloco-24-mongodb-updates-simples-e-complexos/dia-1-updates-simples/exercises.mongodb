@@ -48,3 +48,10 @@ db.movies.updateOne(
   { $rename: { budget: "estimatedBudget" } }
 );
 db.movies.find();
+
+// Exercise 8
+db.movies.updateOne(
+  { title: "Home Alone" },
+  { $min: { budget: 5 } }
+);
+db.movies.find();
