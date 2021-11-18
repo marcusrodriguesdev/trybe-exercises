@@ -1,0 +1,16 @@
+use class;
+
+// Exercise 1
+db.movies.updateOne(
+  { title: "Batman" },
+  { $set: { imdbRating: 7.7 } }
+);
+db.movies.find();
+
+// Exercise 2
+db.movies.updateOne(
+  { title: "Godzilla" },
+  { $set: { budget: 1 } }
+);
+db.movies.find();
+
