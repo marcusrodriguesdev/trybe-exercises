@@ -88,3 +88,15 @@ db.movies.updateMany(
   { $unset: { budget: "", estimatedBudget: "" } }
 );
 db.movies.find();
+
+// Exercise 13
+db.movies.updateMany(
+  { $or: [
+    { title: "Batman" },
+    { title: "Home Alone" }
+  ] },
+  { 
+    $min: { imdbRating: 17 }
+  }
+);
+db.movies.find();
