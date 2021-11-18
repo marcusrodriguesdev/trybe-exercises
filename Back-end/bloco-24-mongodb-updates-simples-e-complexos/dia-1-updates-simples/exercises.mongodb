@@ -65,3 +65,12 @@ db.movies.updateOne(
   }
 );
 db.movies.find();
+
+// Exercise 10
+db.movies.updateOne(
+  { title: "Home Alone" },
+  { $currentDate: { 
+      lastUpdate: { $type: "timestamp" }
+   } }
+);
+db.movies.find();
