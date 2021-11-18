@@ -20,3 +20,13 @@ db.xmen.updateMany(
   }
 );
 db.xmen.find();
+
+// Exercise 16
+db.xmen.updateMany(
+  { class: { $in: ["omega", "gama"] } },
+  { 
+    $currentDate: { lastUpdate: { $type: "timestamp" } },
+    $max: { power: 500 }
+  }
+);
+db.xmen.find();
