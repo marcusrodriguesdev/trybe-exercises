@@ -1,0 +1,52 @@
+use class;
+db.xmen.count();
+db.xmen.find();
+
+// Exercise 14
+db.xmen.updateMany(
+  { class: "unknown" },
+  { $unset: {
+    class: ""
+  } }
+);
+db.xmen.find();
+
+// Exercise 15
+db.xmen.updateMany(
+  {},
+  { 
+    $rename: { name: "hero_name", true_name: "full_name" },
+    $set: { power: 100 }
+  }
+);
+db.xmen.find();
+
+// Exercise 16
+db.xmen.updateMany(
+  { class: { $in: ["omega", "gama"] } },
+  { 
+    $currentDate: { lastUpdate: { $type: "timestamp" } },
+    $max: { power: 500 }
+  }
+);
+db.xmen.find();
+
+// Exercise 17
+db.xmen.updateMany(
+  { class: "gama" },
+  { 
+    $currentDate: { lastUpdate: { $type: "timestamp" } },
+    $min: { power: 300 }
+  }
+);
+db.xmen.find();
+
+// Exercise 18
+db.xmen.updateMany(
+  { class: { $exists: false } },
+  { 
+    $currentDate: { lastUpdate: { $type: "timestamp" } },
+    $inc: { power: -100 }
+  }
+);
+db.xmen.find();
