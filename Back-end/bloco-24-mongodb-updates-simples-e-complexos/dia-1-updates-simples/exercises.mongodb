@@ -20,3 +20,10 @@ db.movies.updateOne(
   { $set: { budget: 15, imdbRating: 5.5 }  },
 );
 db.movies.find();
+
+// Exercise 4
+db.movies.updateOne(
+  { title: "Batman" },
+  { $inc: { imdbRating: 2 } }
+);
+db.movies.find();
