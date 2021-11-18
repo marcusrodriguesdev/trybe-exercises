@@ -27,3 +27,10 @@ db.movies.updateOne(
   { $inc: { imdbRating: 2 } }
 );
 db.movies.find();
+
+// Exercise 5
+db.movies.updateOne(
+  { title: "Home Alone" },
+  { $inc: { budget: 5 } }
+);
+db.movies.find();
