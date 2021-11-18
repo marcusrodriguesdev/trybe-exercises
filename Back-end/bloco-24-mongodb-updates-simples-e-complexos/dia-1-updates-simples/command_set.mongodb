@@ -12,3 +12,10 @@ db.products.update(
     }
   }
 );
+
+// Exemplo 2
+// use dot notation
+db.products.update(
+  { _id: 100 },
+  { $set: { "details.make": "zzz" } }
+);
