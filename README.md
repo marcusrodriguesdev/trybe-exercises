@@ -157,7 +157,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 23.3 - Projeto - Data Flights
   
   ***Bloco 24: MongoDB: Updates Simples e Complexos***
- - [ ] 24.1 - Updates Simples
+ - [x] 24.1 - Updates Simples
  - [ ] 24.2 - Updates Complexos - Arrays - Parte 1
  - [ ] 24.3 - Updates Complexos - Arrays - Parte 2
  - [ ] 24.4 - Projeto - Commerce
