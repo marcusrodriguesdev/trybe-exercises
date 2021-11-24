@@ -160,7 +160,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 24.1 - Updates Simples
  - [x] 24.2 - Updates Complexos - Arrays - Parte 1
  - [x] 24.3 - Updates Complexos - Arrays - Parte 2
- - [ ] 24.4 - Projeto - Commerce
+ - [x] 24.4 - Projeto - Commerce
   
   ***Bloco 25: MongoDB: Aggregation Framework***
  - [ ] 25.1 - Aggregation Framework - Parte 1
