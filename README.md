@@ -163,7 +163,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 24.4 - Projeto - Commerce
   
   ***Bloco 25: MongoDB: Aggregation Framework***
- - [ ] 25.1 - Aggregation Framework - Parte 1
+ - [x] 25.1 - Aggregation Framework - Parte 1
  - [ ] 25.2 - Aggregation Framework - Parte 2
  - [ ] 25.3 - Projeto - Aggregations
   
