@@ -164,7 +164,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   
   ***Bloco 25: MongoDB: Aggregation Framework***
  - [x] 25.1 - Aggregation Framework - Parte 1
- - [ ] 25.2 - Aggregation Framework - Parte 2
+ - [x] 25.2 - Aggregation Framework - Parte 2
  - [ ] 25.3 - Projeto - Aggregations
   
   ***Bloco 26: Introdução ao desenvolvimento Web com NodeJS
