@@ -2,7 +2,7 @@ const { expect } = require('chai');
 
 const evaluatorNumber = require('../evaluatorNumber')
 
-describe('Essa função irá receber um número como parâmetro e retornar uma string como resposta', () => {
+describe('1. Essa função irá receber um número como parâmetro e retornar uma string como resposta', () => {
   it('testa se o numero e positivo', () => {
     const resposta = evaluatorNumber(4);
     expect(resposta).to.be.equals('positivo');
