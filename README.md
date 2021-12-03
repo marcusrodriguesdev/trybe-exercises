@@ -169,8 +169,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   
   ***Bloco 26: Introdução ao desenvolvimento Web com NodeJS
  - [x] 26.1 - Intro - NodeJS
- - [ ] 26.1 - NodeJS - Introdução
- - [ ] 26.2 - NodeJS - Fluxo Assíncrono
+ - [x] 26.1 - NodeJS - Introdução
+ - [] 26.2 - NodeJS - Fluxo Assíncrono
  - [ ] 26.3 - Testes com NodeJS
  - [ ] 26.4 - Express: HTTP com Node.js
  - [ ] 26.5 - Praticando Express
