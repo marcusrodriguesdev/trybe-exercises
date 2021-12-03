@@ -24,13 +24,14 @@ app.post('/hello', createApiHello);
 const createApiGreetings = (req, res) => {
   const { name, age } = req.body;
   const message1 = {
-    message: `Hello, ${ name }`,
+    message: `Hello, ${name}!`,
   };
   const message2 = {
     message: 'Unauthorized',
   };
 
-  if (age > 17) res.status(200).json(message1);
-  if (age <= 17) return res.status(401).json(message2);
+  if (parseInt(age, 10) <= 17) return res.status(401).json(message2);
+
+  res.status(200).json(message1);
 }
 app.post('/greetings', createApiGreetings);
