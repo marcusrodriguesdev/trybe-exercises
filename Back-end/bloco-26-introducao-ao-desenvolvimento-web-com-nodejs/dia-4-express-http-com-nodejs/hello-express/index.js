@@ -17,8 +17,7 @@ const orderName = drinks.sort((a, b) => {
 });
 
 const createFirstApi = (req, res) => {
-  const { id, name, price } = req.body;
-  drinks.push({ id, name, price });
+  const { name, maxPrice } = req.query;
   const drink = drinks.filter((d) => 
     d.name.includes(name) && d.price < parseInt(maxPrice));
   res.status(200).json(drink);
