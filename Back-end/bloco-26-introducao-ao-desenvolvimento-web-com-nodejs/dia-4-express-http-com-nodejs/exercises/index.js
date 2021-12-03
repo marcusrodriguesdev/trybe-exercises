@@ -20,3 +20,17 @@ const createApiHello = (req, res) => {
 app.post('/hello', createApiHello);
 
 
+//  Exercise 3
+const createApiGreetings = (req, res) => {
+  const { name, age } = req.body;
+  const message1 = {
+    message: `Hello, ${ name }`,
+  };
+  const message2 = {
+    message: 'Unauthorized',
+  };
+
+  if (age > 17) res.status(200).json(message1);
+  if (age <= 17) return res.status(401).json(message2);
+}
+app.post('/greetings', createApiGreetings);
