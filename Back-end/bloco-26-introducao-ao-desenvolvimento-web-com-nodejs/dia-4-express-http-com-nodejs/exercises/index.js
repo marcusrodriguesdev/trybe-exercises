@@ -35,3 +35,10 @@ const createApiGreetings = (req, res) => {
   res.status(200).json(message1);
 }
 app.post('/greetings', createApiGreetings);
+
+
+// Exercise 4
+app.put('/users/:name/:age', (req, res) => {
+  const { name, age } = req.params;
+  res.status(200).json({ 'message': `Seu nome e ${name} e voce tem ${age} anos de idade` });
+});
