@@ -17,13 +17,12 @@ const orderName = drinks.sort((a, b) => {
 });
 
 const createFirstApi = (req, res) => {
-  const { name, maxPrice } = req.query;
-  const drink = drinks.filter((d) => 
-    d.name.includes(name) && d.price < parseInt(maxPrice));
-  res.status(200).json(drink);
+  const { id, name, price, } = req.body;
+  drinks.push({ price, name, id });
+  res.status(201).json({ message: 'Recipe created sucessfully!' });
 }
 
-app.post('/drink/search', createFirstApi);
+app.post('/drinks', createFirstApi);
 
 app.listen(3001, () => {
   console.log('Rodando na porta 3001');
