@@ -174,7 +174,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 26.3 - Testes com NodeJS
  - [x] 26.4 - Express: HTTP com Node.js
  - [x] 26.5 - Praticando Express
- - [ ] 26.6 - Projeto - Talker manager
+ - [x] 26.6 - Projeto - Talker manager
   
   ***Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful***
  - [ ] 27.1 - Introdução - Arquitetura de Software
