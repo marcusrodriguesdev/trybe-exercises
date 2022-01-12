@@ -180,7 +180,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 27.1 - Introdução - Arquitetura de Software
  - [x] 27.1 - Arquitetura de Software - Camada de Model
  - [x] 27.2 - Arquitetura de Software - Camada de Controller e Service
- - [ ] 27.3 - Arquitetura Web - Rest e Restful
+ - [x] 27.3 - Arquitetura Web - Rest e Restful
  - [ ] 27.4 - Arquitetura de Software - Testando as Camadas
  - [ ] 27.5 - Projeto - Store Manager
   
