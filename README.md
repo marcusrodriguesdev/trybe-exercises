@@ -186,7 +186,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   
   ***Bloco 28: Autenticação e Upload de Arquivos***
  - [x] 28.1 - NodeJS - JWT - (JSON Web Token)
- - [ ] 28.2 - NodeJS - Upload de arquivos com Multer
+ - [x] 28.2 - NodeJS - Upload de arquivos com Multer
  - [ ] 28.3 - NodeJS - Testando APIs com Testes de Integração
  - [ ] 28.4 - Projeto - Cookmaster
   
