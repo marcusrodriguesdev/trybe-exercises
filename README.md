@@ -191,7 +191,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 28.4 - Projeto - Cookmaster
   
   ***Bloco 29: Deployment***
- - [ ] 29.1 - Introdução - Deploy
+ - [x] 29.1 - Introdução - Deploy
  - [ ] 29.1 - Infraestrutura - Deploy com Heroku
  - [ ] 29.2 - Deploy - Gerenciadores de Processos
  - [ ] 29.3 - Projeto - Stranger Things
