@@ -193,7 +193,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   ***Bloco 29: Deployment***
  - [x] 29.1 - Introdução - Deploy
  - [x] 29.1 - Infraestrutura - Deploy com Heroku
- - [ ] 29.2 - Deploy - Gerenciadores de Processos
+ - [x] 29.2 - Deploy - Gerenciadores de Processos
  - [ ] 29.3 - Projeto - Stranger Things
 
   ***Bloco 30: Arquitetura: SOLID e ORM***
