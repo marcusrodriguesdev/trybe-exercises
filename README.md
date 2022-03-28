@@ -197,7 +197,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 29.3 - Projeto - Stranger Things
 
   ***Bloco 30: Arquitetura: SOLID e ORM***
- - [ ] 30.1 - Arquitetura - Princípios SOLID
+ - [x] 30.1 - Arquitetura - Princípios SOLID
  - [ ] 30.2 - ORM - Interface da aplicação com o banco de dados
  - [ ] 30.3 - ORM - Associations
  - [ ] 30.4 - Boas práticas na escrita de testes
