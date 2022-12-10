@@ -79,6 +79,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  - [x] 11.1 - 'Hello, world!' no React!
  - [x] 11.2 - Componentes React
  - [x] 11.3 - Projeto - Movie Cards Library
+ 
+ 
   
   ***Bloco 12: Componentes com Estado, Eventos e Formulários com React***
  - [x] 12.1 - Componentes com estado e eventos
